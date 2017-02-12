@@ -121,17 +121,17 @@ public class atm extends javax.swing.JFrame {
             }
         });
         jPanel1.add(tSaldo);
-        tSaldo.setBounds(210, 210, 200, 40);
+        tSaldo.setBounds(210, 270, 200, 40);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel3.setText("Saldo");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(140, 220, 60, 20);
+        jLabel3.setBounds(140, 280, 60, 20);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel2.setText("Jumlah");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(130, 270, 60, 30);
+        jLabel2.setBounds(140, 220, 60, 30);
 
         tJumlah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +139,7 @@ public class atm extends javax.swing.JFrame {
             }
         });
         jPanel1.add(tJumlah);
-        tJumlah.setBounds(210, 270, 200, 40);
+        tJumlah.setBounds(210, 210, 200, 40);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 580, 430);

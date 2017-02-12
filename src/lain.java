@@ -65,7 +65,7 @@ public class lain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(pilih);
-        pilih.setBounds(230, 250, 160, 30);
+        pilih.setBounds(210, 250, 190, 30);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel2.setText("Pilihan");
